@@ -1,3 +1,4 @@
+<DOCTYPE! Javascript>
 //Super Cool Variables
 var coins = 0;
 var multi = 1;
