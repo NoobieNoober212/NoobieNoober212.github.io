@@ -53,8 +53,6 @@ function loadLevel(){
         location.replace("gameStuff/Maingame.html");
     }else if(code === l2A){
         location.replace("gameStuff/sword1tke.html");
-    }else if(code === hot){
-        location.replace("Login.html");
     }else{
         alert("Code is invalid.");
     }
