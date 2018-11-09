@@ -67,7 +67,7 @@ function giveCode(){
         alert(lcodes + l2A);
     }else if(level === 3.1){
         alert(lcodes + l3A);
-    } else if(level == 3.2){
+    }else if(level === 3.2){
         alert(lcodes + l3B);
     }
 }
