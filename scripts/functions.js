@@ -4,9 +4,10 @@ var multi = 1;
 var level = 1;
 var canSave = true;
 const hot = "@dm1np@n3l"
-const l1 = "Bui7MBemPF"
-const l2A = "M1AXj0fZEy"
-const l3A = "o72LYqnRMt"
+const l2A = "M1AXj0fZEy"//sword
+const l3A = "o72LYqnRMt"//run
+const l3B = "JWaZdV4sA6" //wak
+const l4A = "27XlSIE9Wf"
 const lcodes = "Your level code is "
 //End of the variables :(
 function supersecretsupercooldevegg(){
@@ -53,15 +54,21 @@ function loadLevel(){
         location.replace("gameStuff/Maingame.html");
     }else if(code === l2A){
         location.replace("gameStuff/sword1tke.html");
-    }else{
+    } else if(code === l3A){
+        location.replace("gameStuff/Runsw1.html");
+    } else if(code == l3B){
+        location.replace("gameStuff/walkw1.html");
+    } else{
         alert("Code is invalid.");
     }
 }
 function giveCode(){
-    if(level === 2.1){
+    if(level === 2){
         alert(lcodes + l2A);
     }else if(level === 3.1){
         alert(lcodes + l3A);
+    } else if(level == 3.2){
+        alert(lcodes + l3B);
     }
 }
 function redirect(){
