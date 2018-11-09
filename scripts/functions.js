@@ -50,9 +50,7 @@ function addCoinsnorm(){
 }
 function loadLevel(){
     var code = prompt("Please enter your key here");
-    if(code === l1){
-        location.replace("gameStuff/Maingame.html");
-    }else if(code === l2A){
+    if(code === l2A){
         location.replace("gameStuff/sword1tke.html");
     } else if(code === l3A){
         location.replace("gameStuff/Runsw1.html");
