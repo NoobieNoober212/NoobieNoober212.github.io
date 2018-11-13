@@ -2,6 +2,7 @@
 var coins = 0;
 var multi = 1;
 var level = 1;
+var startint = 1;
 var canSave = true;
 const hot = "@dm1np@n3l"
 const l2A = "M1AXj0fZEy"//sword
@@ -72,4 +73,7 @@ function giveCode(){
 function redirect(){
     alert("haha u died noob");
     location.replace("MainGame.html");
+}
+function dead(){
+    alert("Sorry but... You don't need one. Not right now.");
 }
