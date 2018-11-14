@@ -72,7 +72,7 @@ function giveCode(){
 }
 function redirect(){
     alert("haha u died noob");
-    location.replace("MainGame.html");
+    location.replace("yeyeStart.html");
 }
 function dead(){
     alert("Sorry but... You don't need one. Not right now.");
